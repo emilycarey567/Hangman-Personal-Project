@@ -1,0 +1,22 @@
+%Testing Stage6 while loop determines how many guesses user has left
+Test Type							                        selectedRandomWord   	userinput 	expected output.  				                	actual output
+%Program now replaces two asterisks	                        leave
+correctly guessed - word containg two of the same letter				              e     	'Well done that letter was guessed correctly		'Well done that letter was guessed correctly
+													                                              *e**e						                     	*e**e
+
+
+%If a guess is correct it will not interfere with how many guesses the. user has left as can be seen above
+
+
+
+%Note for the next test types the program will also print the messages and asterisks evident in Stage5 testing and above but will not be included for the main purpose of testing how many more guesses the user has left
+Test Type							                  selectedRandomWord	userinput	expected ouput					        actual result
+                                                        material
+incorrectly guessed letter for the first time					                v		'You have 5 remaining tries left'		'You have 5 remaining tries left'
+incorrectly guessed letter for the second time						            z		'You have 4 remaining tries left'		'You have 4 remaining tries left'
+incorrectly guessed letter for the third time					        	    w       'You have 3 remaining tries left'		'You have 3 remaining tries left'
+incorrectly guessed letter for the fourth time						            p		'You have 2 remaining tries left'		'You have 2 remaining tries left'
+incorrectly guessed letter for the fifth time						            q		'You have 1 remaining tries left'		'You have 1 remaining tries left'
+incorrectly guessed letter for the sixth time						            x		'you lose'				            	'you lose'
+
+

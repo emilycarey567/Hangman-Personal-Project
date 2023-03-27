@@ -1,0 +1,7 @@
+ Test           selectedRandomWord       Expected Result        Actual Result
+%1-long word           malevolent               **********              **********  
+%2-single letter       a                        *                       * 
+%3-short word          sad                      ***                     ***
+
+    
+%All produce expected result

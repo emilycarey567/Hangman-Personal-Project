@@ -1,0 +1,8 @@
+ Test           selectedRandomWord      user input 	Expected Result        Actual Result
+%1-long word                   malevolent         a      		1                   1
+%2-single letter     	       a                  v     		0                   0
+%3-short word         	       sad                d     		1                   1
+%4-word with double letters    hollow             l     		2                   2
+
+    
+%All produce the expected result

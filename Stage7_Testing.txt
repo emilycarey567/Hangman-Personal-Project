@@ -1,0 +1,13 @@
+%Stage7 end of game function
+
+Test Type				            Expected Output						    Actual Output
+Correctly guessed all letters	    YAY!, you have guessed the word!		YAY!, you have guessed the word!		
+					                You Win							        You Win
+					                the word is...						    The word is happy...
+
+
+
+Incorrectly guessed all letters		Unlucky, you've lost the game			Unlucky, you've lost the game
+				                	The word is...						    The word is...
+
+

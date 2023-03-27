@@ -1,0 +1,9 @@
+Test 	 			SelectedRandomWord	user-input	expected result						actual result
+incorrect user input		leave			d		'sorry that letter was wrong'			'sorry that letter was wrong'
+									               	'*****'						            '*****'
+
+
+
+correct user input		material		l		'Well done, that letter was guessed correctly'  'Well done, that letter was guessed correctly'
+                								'*******l'					                    '*******l'
+%Currently if the letter guessed is the the selectedRandomWord more than once it will only replace one asterisk

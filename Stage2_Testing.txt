@@ -1,0 +1,9 @@
+%Testing Stage 2 to see if a random word is selected each time the program is run
+Test				selectedRandomWord
+1					source
+2					picture
+3					theory
+4					change
+5					individual
+
+%A random word is selected each time the program is run

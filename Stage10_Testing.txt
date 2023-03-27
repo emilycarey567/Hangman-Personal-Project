@@ -1,0 +1,6 @@
+%Stage10 testing conditional statement
+
+Test	userInput	expected output		actual output
+number		9		Invalid try again	Invalid try again
+symbol		@		Invalid try again	Invalid try again
+operator	+		Invalid try again	Invalid try again
